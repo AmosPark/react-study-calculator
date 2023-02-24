@@ -1,11 +1,10 @@
-import React from 'react';
-import CalculInput from './CalculInput';
+import React, {useState} from 'react';
 import CalButtons from './CalButtons';
 
 function App() {
   return (
     <>
-      <CalculInput />
+      <p>''</p>
       <CalButtons />
     </>
   );
