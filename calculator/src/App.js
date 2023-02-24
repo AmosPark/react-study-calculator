@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import CalButtons from './CalButtons';
 
 function App() {
   const [result, setResult] = useState("");
