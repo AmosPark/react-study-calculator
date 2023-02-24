@@ -10,3 +10,5 @@ function CalculInput() {
         </div>
     );
 }
+
+export default CalculInput;
