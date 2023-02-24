@@ -1,12 +1,16 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import CalButtons from './CalButtons';
 
 function App() {
-  const onClick = () => {};
+  const [result, setResult] = useState("");
+
+  const onClick = ({screen}) => {
+    setResult(result.concat(event.target.name))
+  };
 
   return (
     <>
-      <p> </p>
+      <p>{result}</p>
       <CalButtons />
     </>
   );
