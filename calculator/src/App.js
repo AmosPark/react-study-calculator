@@ -4,7 +4,7 @@ import CalButtons from './CalButtons';
 function App() {
   const [result, setResult] = useState("");
 
-  const onClick = ({screen}) => {
+  const onClick = (event) => {
     setResult(result.concat(event.target.name))
   };
 
