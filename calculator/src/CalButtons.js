@@ -51,7 +51,7 @@ function CalButtons ({onClick, name}) {
             <button name = "+">
                 +
             </button>
-            <button name = "0" onClick={onCLick}>
+            <button name = "0" onClick={onClick}>
                 0
             </button>
             <button name = "." onClick={onClick}>
